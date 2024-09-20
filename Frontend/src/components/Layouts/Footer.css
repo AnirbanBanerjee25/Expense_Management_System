@@ -1,0 +1,32 @@
+/* Ensure the footer is fixed at the bottom */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .content {
+    min-height: calc(100vh - 60px); /* Adjust height based on footer height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    height: 60px; /* Define the footer height */
+  }
+  
+  /* Footer text styling */
+  .footer h6 {
+    margin: 0;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+  }
+  

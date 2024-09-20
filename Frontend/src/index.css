@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  height: 100vh;
+}
+
+.resgister-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+/* transection page */
+.filters {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px gray;
+}
+/* transection page */
+
+/* antd icons */
+
+.switch-icons {
+  border: 1px solid rgba(0, 0, 0, 0.677);
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+.inactive-icon {
+  color: gray;
+}
+
+/* Container */
+.homepage-container {
+  padding: 20px;
+  background-color: #f4f6f9; /* Light background for the main container */
+  min-height: 100vh;
+}
+
+/* Filters Section */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin-bottom: 20px;
+}
+
+.filters h6 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #333; /* Dark text */
+}
+
+.select-box {
+  width: 200px;
+}
+
+/* Switch Icons */
+.switch-icons {
+  display: flex;
+  align-items: center;
+}
+
+.switch-icons .active-icon {
+  color: #1890ff; /* Primary blue */
+  font-size: 24px;
+}
+
+.switch-icons .inactive-icon {
+  color: #aaa; /* Light gray for inactive icons */
+  font-size: 24px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #1890ff; /* Primary button color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #40a9ff;
+}
+
+/* Table */
+.table {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Modal */
+.ant-modal {
+  border-radius: 10px; /* Rounded corners for modal */
+}
+
+.ant-modal-header {
+  background-color: #1890ff;
+  color: white;
+  border-radius: 10px 10px 0 0;
+}
+
+.ant-modal-footer {
+  display: none;
+}
+
+.ant-modal-title {
+  color: white;
+}
+
+/* Form */
+.form {
+  padding: 20px;
+}
+
+.form .ant-form-item-label > label {
+  font-weight: bold;
+  color: #333;
+}
+
+.form .ant-input,
+.form .ant-select-selector {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  box-shadow: none;
+}
+
+/* Form buttons */
+.form button {
+  background-color: #1890ff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #40a9ff;
+}
