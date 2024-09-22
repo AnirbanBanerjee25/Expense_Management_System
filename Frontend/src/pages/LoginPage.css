@@ -1,0 +1,75 @@
+/* loginpage.css */
+
+body {
+    background-color: #e0e7ff; /* Light blue background for a soft yet vibrant contrast */
+    font-family: 'Arial', sans-serif;
+}
+
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ant-form {
+    background-color: #ffffff; /* White background for the form */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow effect */
+    width: 400px;
+}
+
+.ant-form-item {
+    margin-bottom: 20px;
+}
+
+.ant-form-item-label > label {
+    color: #4b5563; /* Dark gray for labels */
+}
+
+.ant-input {
+    border-radius: 4px; /* Rounded corners for input fields */
+    border: 1px solid #cbd5e1; /* Light gray border */
+    transition: border-color 0.3s;
+}
+
+.ant-input:focus {
+    border-color: #3b82f6; /* Bright blue border on focus */
+    box-shadow: 0 0 5px rgba(59, 130, 246, 0.5); /* Blue glow effect */
+}
+
+.btn {
+    background-color: #3b82f6; /* Bright blue for primary button */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.btn:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+h1 {
+    text-align: center;
+    color: #1f2937; /* Very dark gray for the title */
+    margin-bottom: 20px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    color: #3b82f6; /* Bright blue for links */
+    text-decoration: none; /* Remove underline */
+}
+
+.link:hover {
+    text-decoration: underline; /* Underline on hover */
+}
